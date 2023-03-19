@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../image/todo.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 750px;
+    margin: 0;
+}
+
+input {
+    border: 2px solid teal;
+    border-radius: 6px;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    padding-left: 5px;
+}
+
+#create_button {
+    width: 200px;
+    height: 40px;
+    border: 2px solid teal;
+    border-radius: 6px;
+    cursor: pointer;
+    background: (0, 0, 0, 0.1);
+    font-style: 22px;
+}
+
+#todo_list {
+    margin: 0 auto;
+    width: 750px;
+}
+
+h3 {
+    font-style: 28px;
+    font-family: "Franklin Gothic Heavy", sans-serif;
+}
+
+span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.block_text {
+    width: 100%;
+    border: 2px solid teal;
+    padding: 8px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 6px;
+}
+.delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    background: red;
+    border-radius: 6px;
+}
+.edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 35px;
+    background: yellow;
+    border-radius: 6px;
+}
